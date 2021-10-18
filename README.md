@@ -16,17 +16,17 @@ docker-compose up -d
 ```bash
 docker-compose stop
 ```
-
+<br></br>
 動かないときは
 ```bash
 docker container ls
 ```
 でコンテナが動いていることを確認  
-動いていたら
+動いていたら以下でログの確認ができる
 ```bash
 docker logs <コンテナ名>
 ```
-でログの確認ができる
+
 
 # Image
 ![frontend](img/topview.png)
