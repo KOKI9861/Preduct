@@ -3,8 +3,8 @@
 
 # How to Start
 ```bash
-git clone git@github.com:KOKI9861/Predict.git
-cd Predict/.devcontainer
+git clone git@github.com:KOKI9861/Preduct.git
+cd Preduct/.devcontainer
 docker-compose up -d
 ```
 上記コマンドで  
