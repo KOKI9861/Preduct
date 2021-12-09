@@ -4,7 +4,6 @@
 # How to Start
 ```bash
 git clone git@github.com:KOKI9861/Preduct.git
-cd Preduct/.devcontainer
 docker-compose up -d
 ```
 上記コマンドで  
@@ -14,12 +13,12 @@ docker-compose up -d
 
 停止する際は
 ```bash
-docker-compose stop
+docker-compose down
 ```
 <br></br>
-動かないときは
+ページが開けないときは
 ```bash
-docker container ls
+docker ps
 ```
 でコンテナが動いていることを確認  
 動いていたら以下でログの確認ができる
